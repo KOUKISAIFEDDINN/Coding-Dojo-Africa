@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbarre">
+        <div class="navleft">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="navright">
+            <ul onclick="alert('Loading weather report')">Burnank</ul>
+            <ul>Chicago</ul>
+            <ul>Dallas</ul>
+        </div>
+    </div>
+    <div class="weather">
+        <div class="weather-header">
+            <div class="barreW">
+                <div><h1>SanJose</h1></div>
+                <div class="temperature">
+                    
+                    <h3>Show temperature</h3>
+                    <select name="x" id="list" onchange="changeNumbuers()">
+                        <option value="c">C°</option>
+                        <option value="F" >F°</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="weather-body">
+            <div class="da">
+            <div class="Today">
+                <h1>Today</h1>
+                <img src="./assets/some_rain.png" alt="">
+                
+                <div class="dz"><h3>some rain</h3><span class="c1" id="c1">24</span>°       <span class="c2" id="f1">18°</span></div>
+            </div>
+            <div class="Today">
+                <h1>Today</h1>
+                <img src="./assets/some_sun.png" alt="">
+                <div class="dz"><h3>some rain</h3><span class="c1" id="c2">27</span>°       <span class="c2" id="f2">19°</span></div>
+            </div>
+            <div class="Today">
+                <h1>Today</h1>
+                <img src="./assets/some_clouds.png" alt="">
+                <div class="dz"><h3>some rain</h3><span class="c1" id="c3">21</span>°       <span class="c2" id="f3">16°</span></div>
+            </div>
+            <div class="Today">
+                <h1>Today</h1>
+                <img src="./assets/some_sun.png" alt="">
+                <div class="dz"><h3>some rain</h3><span class="c1" id="c4">26</span>°       <span class="c2" id="f4">21°</span></div>
+            </div>
+            
+        </div>
+        <div class="weather-alert">
+            <div class="alert" id="weather2">
+                <img src="./assets/cookie.png" alt="">
+                        <div>
+                <h1>Stop!Cookie time</h1>
+                We use cookie (sadly not the edible ones) to personalize content and ads, to personalize
+                content and 
+            </div>
+            <div class="bnb" >
+                <button class="btn" onclick="hide(this)">I accept</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

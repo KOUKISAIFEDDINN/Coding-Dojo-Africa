@@ -1,0 +1,33 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.theBigBOX {
+    width: 500px;
+    border-color: black;
+    border: 2px solid #000;
+    justify-content: center;
+}
+.l1 {
+    width: 340px; 
+    float: left; 
+    background-color: aqua; 
+    padding: 80px; 
+}
+.content {
+    margin-top: 220px;
+    margin-left: 50px;
+}
+.content p{
+    font-weight: bold;
+}
+img {
+    width: 100px;
+}
+.img1 {
+    margin-left: 20px;
+    position: absolute;
+    top: 120px;  
+}
+.img2 {
+    width: 20px;
+}

@@ -1,0 +1,31 @@
+body{
+    font-family: 'monaco', Courier, monospace;
+}
+.HOME{
+    border: 3px solid black;
+    width: 30%;
+    margin-left: 70px;
+    padding-left: 10px;
+}
+.BOX1{
+    display: flex;
+    justify-content: space-around;
+}
+.likes{
+    display: flex;
+
+    align-items: center;
+}
+.counter{
+    margin-top: 15px;
+}
+.button{
+    margin-top: 25px;
+    background-color:rgb(255, 238, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    font-size: larger;
+    width: 90px;
+    height: 30px;
+    box-shadow: 3px 3px 2px 1px black;
+}

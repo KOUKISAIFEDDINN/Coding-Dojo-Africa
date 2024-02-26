@@ -1,0 +1,13 @@
+.row {
+    
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    
+}
+.row div {
+    background-color: rgb(49, 193, 255);
+    padding: 20px;
+    width: 100%;
+}

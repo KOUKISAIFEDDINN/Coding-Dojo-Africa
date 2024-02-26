@@ -1,0 +1,16 @@
+
+.t{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-items: center;
+    gap:20px ;
+}
+/*.color{
+    background-color: var(--color);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}

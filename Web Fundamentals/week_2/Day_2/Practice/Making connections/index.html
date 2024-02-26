@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navback">
+    <div class="navbar">
+        <div class="nav-links">
+        <h1>Profile</h1>
+        <ul class="nav-links">
+            <li>Home</li>
+            <li>My profile</li>
+            <li>Find connection</li>
+        </ul>
+        </div>
+        <button class="btn">Sign Out</button>
+    </div>
+</div>
+    <div class="container">
+        <div class="left">
+            <div class="user">
+                <div class="user-header">
+                    <img src="./images/jane-m.jpg" alt="" >
+                </div>
+                <div class="user-body">
+                    <h1 id="username">Jane Doe</h1>
+                    <h3>
+                        <img src="./icons 2/map-marker.png" alt="" class="icons">
+                        seattle
+                    </h3>
+                    <p class="m20">
+                        Developer/engineer/problem solber<br>
+                        master of shadows and the internet!
+                    </p>
+                    <a href="#" onclick="changeName(this)">
+                        <img src="./icons 2/gear.png" alt="" class="icons">
+                        Edit Profile
+                    </a>
+                </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Education
+            </div>
+            <div class="card-body">
+                <h2>Codig Dojo Full stack bootcamp</h2>
+                <p>Dec 2019_Mar 2020</p>
+                <P>Triple Black Belt in python,c#....</P>
+            </div>
+        </div>
+    </div>
+        
+        
+        <div class="right">
+            <div class="card">
+                <div class="card-header">
+                    <span class="req">2</span>connection Requests
+                </div>
+                <div class="card-body">
+                    <div class="lient" id="hi1">
+                        <img src="./images/todd-s.jpg" alt="">
+                        <span>Todd E</span>
+                        <img src="./icons 2/accept-circle.png" alt="" onclick="hide(this)">
+                        <img src="./icons 2/close-circle.png" alt="">
+                    </div>
+                    <div class="lient">
+                        <img src="./images/phil-s.jpg" alt="">
+                        <span>Phil K</span>
+                        <img src="./icons 2/accept-circle.png" alt="">
+                        <img src="./icons 2/close-circle.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span>500+</span>Your connection
+                </div>
+                <div class="card_body">
+                    <div class="lient">
+                        <img src="./images/adrien-s.jpg" alt="">
+                        <span>Adrien</span>
+                    </div>
+                    <div class="lient">
+                        <img src="./images/anne-s.jpg" alt="">
+                        <span>Anne</span>
+                    </div>
+                    <div class="lient">
+                        <img src="./images/alayne-s.jpg" alt="">
+                        <span>Alayne</span>
+                    </div>
+                    <div class="lient">
+                        <img src="./images/arry-s.jpg" alt="">
+                        <span>Arry</span>
+                    </div>
+                    <hr>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

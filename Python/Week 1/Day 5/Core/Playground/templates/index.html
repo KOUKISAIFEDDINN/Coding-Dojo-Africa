@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        .color {
+            width: 100px;
+            height: 100px;
+            background-color: var(--color);
+            border: 1px solid black;
+            margin: 20px;
+            display: inline-block
+        }
+    </style>
+</head>
+<body >
+    <h1 class="t">Welcome</h1>
+    
+    <div class="container">
+    {% for box in range(box_nbr) %}
+    <div class="color" style="--color: {{ color }}"></div>  
+    {% endfor %}
+    </div>
+</body>
+</html>

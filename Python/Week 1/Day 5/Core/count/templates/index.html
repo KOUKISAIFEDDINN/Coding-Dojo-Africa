@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn1{
+    color: white;
+    background-color: yellow;
+    border: 3px solid black;
+}
+        .btn2{
+    color: rgb(12, 6, 6);
+    background-color: rgb(220, 29, 29);
+    border: 3px solid black;
+}
+.btn_box{
+    gap: 50px;
+}
+.container{
+    margin-left: 50%;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="tyt">Count</h1>
+        <p>{{session.counter}}</p>
+        <div class="btn_box">
+            <button class="btn1"><a href="/increment">Click</a><br></button>
+            <button class="btn2"><a href="/reset">reset</a></button>
+        </div>
+    </div>
+    </body>
+</html>
