@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        .container{
+            background-color:#33393e ;
+            color: white;
+            width: 20%;
+            margin: 5px;
+            padding: 22px 22px 22px 22px;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: blue;">{{ form_data.get('name', '') }}</h1>
+        <p style="color: white;">Dojo Location: {{ form_data.get('location', '') }}</p>
+        <p style="color: white;">Favorite language: {{ form_data.get('lang', '') }}</p>
+        <p style="color: white;">comments: {{ form_data.get('comments', '') }}</p>
+    </div>
+</body>
+</html>

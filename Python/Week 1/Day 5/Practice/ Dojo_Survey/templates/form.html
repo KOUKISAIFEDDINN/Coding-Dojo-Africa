@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .container{
+            background-color:#33393e ;
+            color: white;
+            width: 20%;
+            margin: 5px;
+            padding: 22px 22px 22px 22px;
+            gap: 20px;
+        }
+        .t{
+            color: yellow;
+        }
+        #name{
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 class="t">Dojo survey</h1>
+    <br>
+    <form action="/process" method="POST">
+        <label for="name">Name:</label>
+        <div>
+        <input type="text" id="name" name="name">
+        <br></div>
+        <label >Dojo Location:</label>
+        <div>
+        <select id="location" name="location">
+            <option value="USA">United States</option>
+            <option value="UK">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <br></div>
+        <label >Favorite language:</label>
+        <div>
+        <select id="lang" name="lang">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Java script">Java script</option>
+            <option value="Python">Python</option>
+        </select>
+        <br></div>
+        <label for="comments">comments:</label><br>
+        <div>
+        <textarea id="comments" name="comments" ></textarea>
+        <br></div>
+        <button>submit</button>
+    </form>
+</div>
+</body>
+</html>
