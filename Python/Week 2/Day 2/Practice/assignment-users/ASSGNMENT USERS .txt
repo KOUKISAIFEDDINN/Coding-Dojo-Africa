@@ -1,0 +1,37 @@
+ASSGNMENT USERS 
+
+QUERY 1:
+ 
+INSERT INTO users (first_name, last_name, email) 
+VALUES ('kouki', 'saif', 'koukisaif@gmail.com'),
+('arbi', 'mlyen', 'mlyenarbi@gmail.com'),
+('Mohave', 'Khiari', 'med@gmail.com');
+  
+
+Query 2:
+
+SELECT * FROM users;
+
+Query 3:
+
+SELECT * FROM users WHERE email ='med@gmail.com' LIMIT 1; 
+
+Query 4:
+
+SELECT * FROM users WHERE id=3;
+
+Query 5:
+
+UPDATE users SET last_name ='pancakes' WHERE id=3;
+
+Query 6:
+
+DELETE FROM users WHERE id=2;
+
+Query 7:
+
+SELECT * FROM users ORDER BY first_name;
+
+Query 8:
+
+SELECT * FROM users ORDER BY first_name DESC;

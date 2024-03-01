@@ -1,0 +1,18 @@
+Assignment: Dojos and Ninjas
+
+Query 1 :
+
+INSERT INTO dojos (name) VALUES ('dojo1');
+INSERT INTO dojos (name) VALUES ('dojo2');
+INSERT INTO dojos (name) VALUES ('dojo3');
+
+
+Query 2 :
+
+DELETE FROM dojos WHERE name;
+
+Query 3:
+
+INSERT INTO dojos (name) VALUES ('dojo1');
+INSERT INTO dojos (name) VALUES ('dojo2');
+INSERT INTO dojos (name) VALUES ('dojo3');
