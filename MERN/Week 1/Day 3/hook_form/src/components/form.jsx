@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 function MemberInfo() {
     const [info, setInfo] = useState({
-        firstName: "",
-        lastName: "",
-        email: "",
-        password: "",
+        firstName: (""),
+        lastName: (""),
+        email: (""),
+        password: (""),
 
     })
 
@@ -26,7 +26,7 @@ function MemberInfo() {
                 <p>First Name: {info.firstName}</p>
                 <p>Last Name: {info.lastName}</p>
                 <p>Email: {info.email}</p>
-                <p>Password: {info.password}</p>
+                <p type="password">Password: {info.password}</p>
             </div>
         </div>
     );
