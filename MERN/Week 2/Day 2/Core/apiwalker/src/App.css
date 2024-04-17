@@ -1,0 +1,16 @@
+.searchForm {
+  display: flex;
+  gap: 5px;
+}
+
+.infoDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  align-items: center;
+  margin: 10%;
+  margin-left: 35%;
+
+}
