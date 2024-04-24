@@ -1,0 +1,13 @@
+
+// import the controller
+const Product = require("../controllers/products.controllers")
+
+// ! ALWAYS TEST ALL ROUTES
+// ! W/ VALIDATION
+// ! BEFORE YOU EVER TOUCH THE CLIENT (REACT)
+
+module.exports = (app) => {
+    app.get("/api/products", Product.findAll)
+    app.post("/api/products", Product.create)
+    app.get("/api/products/:id", Product.findOne)
+}
