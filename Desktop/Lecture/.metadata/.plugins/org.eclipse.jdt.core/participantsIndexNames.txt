@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+/Users/macbookpro/Desktop/Lecture/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1487998449.index
+/TestDojoAndNinja/src/main/java
+/Users/macbookpro/Desktop/Lecture/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/319150267.index
+/allbooks/src/main/java
+/Users/macbookpro/Desktop/Lecture/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2031279321.index
+/allbooks/src/main/java
